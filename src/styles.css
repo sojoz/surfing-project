@@ -101,6 +101,7 @@ section {
 .main-grid-image {
   max-width: 370px;
   margin-left: 120px;
+  border-radius: 4px;
 }
 footer {
   color: white;
