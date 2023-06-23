@@ -56,7 +56,53 @@ header a {
   padding: 16px 32px;
 }
 
-@media (max-width: 800px) {
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+footer .grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+footer {
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url("../src/images/surf1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0;
+}
+footer p {
+  opacity: 0.7;
+  color: white;
+  margin-right: 20px;
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+footer li a {
+  color: white;
+  text-decoration: underline;
+  opacity: 0.7;
+}
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+footer a {
+  text-decoration: underline;
+  color: white;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
   header h1 {
     font-size: 34px;
     line-height: 1px;
@@ -75,5 +121,9 @@ header a {
   header a {
     font-size: 10px;
     padding: 6px 22px;
+  }
+  footer .grid {
+    grid-template-columns: none;
+    padding-top: 20px;
   }
 }
