@@ -109,10 +109,17 @@ section.secondary-section {
   margin-left: 120px;
   border-radius: 4px;
 }
-
+.grid-two-columns {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0px;
+}
 .grid-3-columns {
   grid-template-columns: 1fr 1fr 1fr;
   text-align: left;
+}
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
 }
 .card {
   background-color: white;
@@ -145,7 +152,8 @@ section.secondary-section {
   width: 200px;
 }
 .img-card-responsive {
-  max-width: 200px;
+  max-width: 100%;
+  max-height: auto;
 }
 footer {
   color: white;
