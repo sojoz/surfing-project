@@ -151,9 +151,18 @@ section.secondary-section {
   text-decoration: none;
   width: 200px;
 }
+.instagram-embed {
+  margin: 30px 0;
+}
+
 .img-card-responsive {
   max-width: 100%;
   max-height: auto;
+}
+.third-section {
+  display: block;
+  margin: 0 auto;
+  padding: 0px;
 }
 footer {
   color: white;
@@ -268,5 +277,13 @@ footer a {
   blockquote {
     display: block;
     margin: 0 auto !important;
+  }
+  #playlist {
+    grid-template-columns: 1fr;
+    flex-wrap: wrap;
+    width: 200px;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
   }
 }
