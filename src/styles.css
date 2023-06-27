@@ -265,4 +265,8 @@ footer a {
     margin-top: 20px;
     margin-bottom: 0px;
   }
+  blockquote {
+    display: block;
+    margin: 0 auto !important;
+  }
 }
