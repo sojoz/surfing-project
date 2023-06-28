@@ -106,8 +106,9 @@ section.secondary-section {
 }
 .main-grid-image {
   max-width: 370px;
-  margin-left: 120px;
+  margin-left: 100px;
   border-radius: 4px;
+  margin-top: 120px;
 }
 .grid-two-columns {
   grid-template-columns: 1fr 1fr;
@@ -163,6 +164,10 @@ section.secondary-section {
   display: block;
   margin: 0 auto;
   padding: 0px;
+}
+.third-section h2 {
+  margin: 20px;
+  padding-bottom: 20px;
 }
 footer {
   color: white;
@@ -224,6 +229,9 @@ footer a {
   header {
     padding-bottom: 50px;
   }
+  section {
+    padding: 12px;
+  }
   .secondary-section h3 {
     font-size: 30px;
     padding-top: 20px;
@@ -282,8 +290,13 @@ footer a {
     grid-template-columns: 1fr;
     flex-wrap: wrap;
     width: 200px;
-    max-width: 400px;
     display: block;
     margin: 0 auto;
+  }
+  .third-section iframe {
+    height: 252px;
+  }
+  .third-section h2 {
+    padding-bottom: 20px;
   }
 }
